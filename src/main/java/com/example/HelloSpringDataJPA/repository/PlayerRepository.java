@@ -23,4 +23,6 @@ public interface PlayerRepository extends CrudRepository<Player, Long> {
 	Optional<String> findTitleById(Long id);
 	
 	*/
+	
+	public List<Player> findByTitleOrDescription(String title, String description);
 }

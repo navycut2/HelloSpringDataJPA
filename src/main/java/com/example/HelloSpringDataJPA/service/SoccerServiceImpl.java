@@ -48,4 +48,9 @@ public class SoccerServiceImpl implements SoccerService {
 
 	}
 
+	@Override
+	public String getPlayerNameByID(long id) {
+		return playerRepository.findPlayerNameByID(id);
+	}
+
 }

@@ -28,5 +28,8 @@ public class HelloSpringDataJpaApplication implements CommandLineRunner{
 		for (String player : players) {
 			System.out.println("Introducing Barca player => " + player);
 		}
+		
+		System.out.println("get Player NAME "+soccerService.getPlayerNameByID(1l));
+		
 	}
 }

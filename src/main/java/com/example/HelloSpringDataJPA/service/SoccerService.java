@@ -9,4 +9,6 @@ public interface SoccerService {
     
     public void addPlayer(String name, String position, int number);
     
+    public String getPlayerNameByID(long id);
+    
 }

@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>HelloSpringDataJPA</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring JPA</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
